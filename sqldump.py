@@ -2,6 +2,8 @@
 Library for dumping different file formats directly into a SQL database.
 """
 
+__version__ = '0.0.1'
+
 import json
 import os
 import pandas as pd
