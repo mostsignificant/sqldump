@@ -1,6 +1,9 @@
 from setuptools import setup
 from sqldump import __version__
 
+import pandas
+import sqlalchemy
+
 setup(
     name='sqldump',
     version=__version__,
