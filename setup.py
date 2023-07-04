@@ -10,4 +10,9 @@ setup(
     author_email='mostsig@gmail.com',
 
     py_modules=['sqldump'],
+
+    install_requires=[
+        'pandas',
+        'sqlalchemy',
+    ],
 )
